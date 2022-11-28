@@ -3,15 +3,19 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Horiseon Webpage</title>
+    <!--Viewport metadata has been added-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Added a new title to describe the firm's website-->
+    <title>Horiseon: Marketing Firm</title> 
 </head>
 
 <body>
-    <div class="header">
+    <!--Removed <div class> and replaced with <header> element to make semantic-->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!--Changed <div> to <nav> element to make semantic-->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -23,11 +27,12 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div class="hero"></div>
     <div class="content">
         <div class="search-engine-optimization">
+            <!--Added alt text to every image-->
             <img src="./assets/images/search-engine-optimization.jpg" alt="A notebook with SEO illustration, sitting on a desk with a laptop, a cup of coffee anda pencil cup." class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
