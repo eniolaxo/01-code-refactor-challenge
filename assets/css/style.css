@@ -137,6 +137,11 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
+/*added img css element because the images were taking up too much space so i'm trying to regulate the size*/ 
+img {
+max-width: 306.15px;    
+}
+
 
 footer {
     padding: 30px;
