@@ -33,7 +33,7 @@
     <figure class="hero"></figure>
 <!--changing <div class="content"> into a section element to introduce or group new content -->
     <section>
-        <!--Replaced <div class> with <article id>, then I added 'class' to link it so that it can successfully be clicked on in the header-->
+        <!--Replaced <div class> with <article id>, then I added 'class' to link it so that it can successfully be directed to correct area when clicked on in header-->
         <article id="search-engine-optimization" class="search-engine-optimization"> 
             <!--Added alt text to every image-->
             <img src="./assets/images/search-engine-optimization.jpg" alt="A notebook with SEO illustration, sitting on a desk with a laptop, a cup of coffee anda pencil cup." class="float-left" />
@@ -57,7 +57,8 @@
             </p>
         </article>
     </section>
-    
+<!--Adding <aside> because relevant info will be formatted on the sidebar of page-->
+    <aside>
     <div class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -80,13 +81,14 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
-    <div class="footer">
+    </aside> <!--I've placed <aside> here for now, but i'm not sure if thats the correct placement for it in the html!-->
+    <!--Made <div footer> into <footer> element-->
+    <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
